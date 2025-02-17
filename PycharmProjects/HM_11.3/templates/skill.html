@@ -1,0 +1,6 @@
+<h1>Найдено со скиллом {{ skillname }}: {{ list_of_skills|length }}</h1>
+{% for person in list_of_skills %}
+    {% if skillname|lower() in person.skills|lower() %}
+        <p><a href="/candidate/{{ person.id }}">{{ person.name }}</a></p>
+    {% endif %}
+{% endfor %}

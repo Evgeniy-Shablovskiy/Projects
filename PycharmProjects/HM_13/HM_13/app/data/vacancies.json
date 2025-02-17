@@ -1,0 +1,5 @@
+[
+  {"pk": 1, "company": "One Tech", "position": "QA Lead", "salary": 2500},
+  {"pk": 2, "company": "Google", "position": "Midlle python developer", "salary": 3000},
+  {"pk": 3, "company": "Yandex", "position": "junior java developer", "salary": 1500}
+]

@@ -1,0 +1,6 @@
+<h1>Найдено кандидатов: {{ list_of_person|length }}</h1>
+{% for candidate_n in list_of_person %}
+    {% if candidate_name|lower() in candidate_n.name|lower() %}
+        <p><a href="/candidate/{{ candidate_n.id }}">{{ candidate_n.name }}</a></p>
+    {% endif %}
+{% endfor %}

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for vacancie in vacancies_list %}
+        <p>Номер компании: {{ vacancie.pk }}. Компания: {{ vacancie.company }}. Должность: {{ vacancie.position }}. Зарплата: {{ vacancie.salary }}</p>
+    {% endfor %}
+</body>
+</html>

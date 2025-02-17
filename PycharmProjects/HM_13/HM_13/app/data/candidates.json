@@ -1,0 +1,5 @@
+[
+  {"pk": 1, "name": "Alex White", "position": "QA Lead"},
+  {"pk": 2, "name": "Alice Grey", "position": "Midlle python developer"},
+  {"pk": 3, "name": "Adam Black", "position": "junior java developer"}
+]
